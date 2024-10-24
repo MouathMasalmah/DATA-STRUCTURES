@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/coolnet/Desktop/java/JAVA 2 - Comp2311/javafx-sdk-21.0.1/lib/javafx.graphics.jar" rootpath="." sourcepath="C:/Users/coolnet/Desktop/java/JAVA 2 - Comp2311/javafx-sdk-21.0.1/lib/src.zip">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+		<accessrules>
+			<accessrule kind="accessible" pattern="javafx/*"/>
+			<accessrule kind="discouraged" pattern="com/sun/*"/>
+			<accessrule kind="discouraged" pattern="netscape/javascript/*"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
